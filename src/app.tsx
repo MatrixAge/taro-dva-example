@@ -8,7 +8,6 @@ import './app.less'
 
 addInterceptor(interceptor)
 
-const app = createApp({ models: models })
-const store = app.getStore()
+const store = createApp({ models: models }).getStore()
 
 export default ({ children }) => <Provider store={store}>{children}</Provider>

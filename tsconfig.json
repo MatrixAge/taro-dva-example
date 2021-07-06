@@ -1,55 +1,35 @@
 {
-      "compilerOptions": {
-            "target": "es2017",
-            "module": "commonjs",
-            "removeComments": false,
-            "preserveConstEnums": true,
-            "moduleResolution": "node",
-            "experimentalDecorators": true,
-            "noImplicitAny": false,
-            "allowSyntheticDefaultImports": true,
-            "outDir": "lib",
-            "noUnusedLocals": true,
-            "noUnusedParameters": true,
-            "strictNullChecks": true,
-            "sourceMap": true,
-            "baseUrl": ".",
-            "rootDir": ".",
-            "jsx": "react",
-            "jsxFactory": "React.createElement",
-            "allowJs": true,
-            "resolveJsonModule": true,
-            "typeRoots": [
-                  "node_modules/@types",
-                  "src/typings/global.d.ts"
-            ],
-            "paths": {
-                  "@/*": [
-                        "./src/*"
-                  ],
-                  "@api/*": [
-                        "./src/api/*"
-                  ],
-                  "@component/*": [
-                        "src/component/*"
-                  ],
-                  "@config/*": [
-                        "./src/config/*"
-                  ],
-                  "@image/*": [
-                        "./src/image/*"
-                  ],
-                  "@service/*": [
-                        "./src/service/*"
-                  ],
-                  "@util/*": [
-                        "./src/util/*"
-                  ]
-            }
-      },
-      "exclude": [
-            "node_modules",
-            "dist"
-      ],
-      "compileOnSave": false
+	"compilerOptions": {
+		"target": "es2017",
+		"module": "commonjs",
+		"removeComments": false,
+		"preserveConstEnums": true,
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"noImplicitAny": false,
+		"allowSyntheticDefaultImports": true,
+		"outDir": "lib",
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"strictNullChecks": true,
+		"sourceMap": true,
+		"baseUrl": ".",
+		"rootDir": ".",
+		"jsx": "react",
+		"jsxFactory": "React.createElement",
+		"allowJs": true,
+		"resolveJsonModule": true,
+		"typeRoots": ["node_modules/@types", "src/typings/global.d.ts"],
+		"paths": {
+			"@/*": ["./src/*"],
+			"@api/*": ["./src/api/*"],
+			"@component/*": ["src/component/*"],
+			"@config/*": ["./src/config/*"],
+			"@image/*": ["./src/image/*"],
+			"@service/*": ["./src/service/*"],
+			"@util/*": ["./src/util/*"]
+		}
+	},
+	"exclude": ["node_modules", "dist"],
+	"compileOnSave": false
 }

@@ -2,7 +2,7 @@
 
 const pageModal = {
 	reducers: {
-		updateState (state: any, { payload }) {
+		updateState(state: any, { payload }) {
 			return {
 				...state,
 				...payload

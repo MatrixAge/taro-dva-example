@@ -13,7 +13,7 @@ interface IProps {
 }
 
 const Index = ({ visible, item, hideDetail }: IProps) => {
-	const [ state_scroll_top, setStateScrollTop ] = useState<number | undefined>(undefined)
+	const [state_scroll_top, setStateScrollTop] = useState<number | undefined>(undefined)
 	const doubleClickHideDetail = useDoubleClick()
 
 	return (

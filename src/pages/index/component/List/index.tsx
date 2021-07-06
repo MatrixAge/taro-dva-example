@@ -20,7 +20,7 @@ interface IProps {
 }
 
 const Index = ({ articles, loadMore, showDetail }: IProps) => {
-	const [ state_page, setStatePage ] = useState<number>(1)
+	const [state_page, setStatePage] = useState<number>(1)
 
 	useReachBottom(() => {
 		loadMore({ page: state_page + 1, pageSize: 10 })

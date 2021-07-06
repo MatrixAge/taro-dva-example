@@ -22,10 +22,8 @@ export default (options: any) => {
 
 	app.start()
 
-	const store = app._store
-
-	app.getStore = () => store
-	app.dispatch = store.dispatch
+	app.getStore = () => app._store
+	app.dispatch = app._store.dispatch
 
 	return app
 }
